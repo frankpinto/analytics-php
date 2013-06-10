@@ -9,7 +9,7 @@ require(dirname(__FILE__) . '/Analytics/Client.php');
 
 class Analytics {
 
-  public $blocked_uas = array(
+  public static $blocked_uas = array(
       'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
       'DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)',
       'Mozilla/5.0 (compatible; MJ12bot/v1.4.3; http://www.majestic12.co.uk/bot.php?+)',
